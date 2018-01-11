@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM", "ES5", "ScriptHost", "ES6"],
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "out",
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+  },
+  "include": ["ts/*"],
+}

@@ -1,0 +1,21 @@
+{
+  "name": "example_typescript_project",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.92",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "tslint ts/* && webpack",
+    "tsc": "tsc",
+    "tslint": "tslint",
+    "webpack": "webpack"
+  }
+}
